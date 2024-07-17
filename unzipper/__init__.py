@@ -22,10 +22,14 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 # Update cache
 update_cache()
 
-# CLient
+# Import UnzipperBot from some_module
+from some_module import UnzipperBot
+
+# Import Unzipper_Buttons from helpers_nexa.buttons
+from helpers_nexa.buttons import Unzipper_Buttons
+
+# Create an instance of UnzipperBot
 unzip_client = UnzipperBot()
 
-
-# Buttons
-from .helpers_nexa.buttons import Unzipper_Buttons
+# Create an instance of Unzipper_Buttons
 Buttons = Unzipper_Buttons()

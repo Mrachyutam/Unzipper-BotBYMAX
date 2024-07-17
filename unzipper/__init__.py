@@ -14,7 +14,7 @@ import logging
 from pyromod import listen
 from .client import UnzipperBot
 from .client.caching import update_cache
-from some_module import UnzipperBot
+from .client import UnzipperBot
 from helpers_nexa.buttons import Unzipper_Buttons
 
 # Logging configuration

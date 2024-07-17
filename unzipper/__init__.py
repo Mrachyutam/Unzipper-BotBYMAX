@@ -14,19 +14,15 @@ import logging
 from pyromod import listen
 from .client import UnzipperBot
 from .client.caching import update_cache
+from some_module import UnzipperBot
+from helpers_nexa.buttons import Unzipper_Buttons
 
-# Logging stuff
+# Logging configuration
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 # Update cache
 update_cache()
-
-# Import UnzipperBot from some_module
-from some_module import UnzipperBot
-
-# Import Unzipper_Buttons from helpers_nexa.buttons
-from helpers_nexa.buttons import Unzipper_Buttons
 
 # Create an instance of UnzipperBot
 unzip_client = UnzipperBot()

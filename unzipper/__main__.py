@@ -36,3 +36,4 @@ if __name__ == "__main__":
 
     logging.info("Bot is active Now! Join @NexaBotsUpdates")
     idle()
+

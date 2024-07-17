@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     logging.info(" >> Starting client...")
     from unzipper import unzipper
-    from unzipper.modules import
+    from unzipper.modules import *
     unzip_client.start()
     logging.info(" >> Checking Log Channel...")
     from .helpers_nexa.checks import check_log_channel
